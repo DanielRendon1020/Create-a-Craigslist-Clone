@@ -1,14 +1,18 @@
 // Import data
+import React from "react";
 
 // Import components
-import './App.css';
+import Gallery from "./Gallery";
+import "./App.css";
 
-function App(){
+function App() {
   return (
     <div>
       <h1>craigslist</h1>
       <div className="App">
-        {/* Your content will go here! */}
+        <div className="body-container">
+          <Gallery />
+        </div>
       </div>
     </div>
   );
